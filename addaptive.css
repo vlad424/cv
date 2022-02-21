@@ -1,0 +1,30 @@
+@media only screen and (max-width: 550px) {
+    .wrap {
+        width: 100vw;
+        height: 155vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, rgb(231, 209, 160) 50%, rgb(78, 81, 88) 50%);
+    }
+    .list {
+        width: 90vw;
+        height: 155vh;
+        background-color:#F6F6F6 ;
+        box-shadow: -5px 0px 15px -5px rgba(34, 60, 80, 0.6);
+    }
+    .main {
+        display: flex;
+        height: 100vh;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 1110px) {
+    .year-city {
+        display: block;
+    }   
+
+}
