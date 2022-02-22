@@ -2,9 +2,9 @@
     .wrap { height: 150vh; }
     .list { height: 140vh; }
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1550px) and (min-height: 910px){
     .list { 
-        height: 130vh;
+        height: 110vh;
         flex-basis: 50vw;
     }
 }
@@ -14,7 +14,14 @@
         flex-basis: 40vw;
     }
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) and (min-height: 905px){
+    .wrap { height: 200vh;}
+    .list {
+        height: 120vh;
+        flex-basis: 60vw;
+    }
+}
+@media only screen and (max-width: 1024px) and (max-height: 905px){
     .wrap { height: 200vh;}
     .list {
         height: 170vh;
@@ -39,13 +46,21 @@
         height: 150vh;
     }
     .list {
-        height: 160vh;
-        flex-basis: 100vw;
+        height: 170vh;
+        width: 100vw;
     }
+    .header {margin: 0px 10px 0px 10px;}
     .main {
         flex-grow: 5;
+        margin: 7.5px 10px 0px 10px;
     }
     .year-city {
         flex-direction: column;
     }
+}
+@media only screen and (max-width: 414px) and (min-height: 720px){
+    .list {height: 150vh;}
+}
+@media screen and (max-width: 400px){
+    .list {height: 230vh;}
 }
